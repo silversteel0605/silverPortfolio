@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* EN */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+/* KR */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+/* EN class */
+.oswald {font-family: 'Oswald', sans-serif;}
+.roboto {font-family: 'Roboto', sans-serif;}
+.zenantique {font-family: 'Zen Antique Soft', serif;}
+.lato {font-family: 'Lato', sans-serif;}
+.montserrat {font-family: 'Montserrat', sans-serif;}
+.robotomono {font-family: 'Roboto Mono', monospace;}
+.raleway {font-family: 'Raleway', sans-serif;}
+.nunito {font-family: 'Nunito', sans-serif;}
+.ubuntu {font-family: 'Ubuntu', sans-serif;}
+.merriweather {font-family: 'Merriweather', serif;}
+.rubik {font-family: 'Rubik', sans-serif;}
+.inter {font-family: 'Inter', sans-serif;}
+.quicksand {font-family: 'Quicksand', sans-serif;}
+.firasans {font-family: 'Fira Sans', sans-serif;}
+.inconsolata {font-family: 'Inconsolata', monospace;}
+.librebaskervile {font-family: 'Libre Baskerville', serif;}
+.sourcecodepro {font-family: 'Source Code Pro', monospace;}
+.notosans {font-family: 'Noto Sans', sans-serif;}
+.notoserif {font-family: 'Noto Serif', serif;}
+.notoserifdisplay {font-family: 'Noto Serif Display', serif;}
+.notosansmono {font-family: 'Noto Sans Mono', monospace;}
+.notosansdisplay {font-family: 'Noto Sans Display', sans-serif;}
+/* KR class */
+.notosanskr {font-family: 'Noto Sans KR', sans-serif;}
+.notoserifkr {font-family: 'Noto Serif KR', serif;}
+.nanumgothic {font-family: 'Nanum Gothic', sans-serif;}
+.nanummyeongjo {font-family: 'Nanum Myeongjo', serif;}
+.nanumgothiccoding {font-family: 'Nanum Gothic Coding', monospace;}
+.nanumpen {font-family: 'Nanum Pen Script', cursive;}
+.nanumbrush {font-family: 'Nanum Brush Script', cursive;}
+.ibmplexsans {font-family: 'IBM Plex Sans KR', sans-serif;}
+.blackhansans {font-family: 'Black Han Sans', sans-serif;}
+.dohyeon {font-family: 'Do Hyeon', sans-serif;}
+
+@font-face {
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.twayair {font-family: 'twayair', sans-serif;}

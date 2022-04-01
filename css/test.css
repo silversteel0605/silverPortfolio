@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+header ul {
+    position: absolute;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+}
+
+.s0 {
+    background-image: url('../images/section1.png');
+}
