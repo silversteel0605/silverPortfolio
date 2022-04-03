@@ -299,3 +299,7 @@ body.modal-open {
     transition: filter 0.5s;
     filter: brightness(80%);
 }
+
+#projectCarousel img {
+    height: 500px;
+}
