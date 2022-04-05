@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/st_default.css">
     <link rel="stylesheet" href="./css/myPage.css">
     <link rel="stylesheet" href="./css/st_font.css">
+    <!-- <link rel="stylesheet" href="./css/animation.css"> -->
 </head>
 <body>
     <!-- Total-Wrap -->
@@ -45,7 +46,7 @@
             <!-- Main -->
             <main id="main">
                 <div id="top" class="main-top">
-                    <div id="video-wrap" class="container-fluid p-0">
+                    <div id="video-wrap" class="container-fluid p-0 animationContainer">
                         <img src="./images/section1.png" alt="" class="backVideo">
                         <div class="blind container-fluid"></div>
                     </div>
@@ -55,7 +56,10 @@
                         Portfolio
                     </p>
                     <div class="link01">
-                        <a class="fs-4 fw-bolder font-monospace" href="https://silversteel.notion.site/Resume-1e02d15288494b77bf54c27a92c17ea1" target="_blank">about</a>
+                        <a href="https://silversteel.notion.site/Resume-1e02d15288494b77bf54c27a92c17ea1" target="_blank">
+                            <p class="fs-3 fw-bolder font-monospace text-white" >Go to</p>
+                            <p class="fs-3 fw-bolder font-monospace text-white" >Project</p>
+                        </a>
                     </div>
                 </div>
                 <div id="board" class="container-fluid space75"> </div>
@@ -127,7 +131,7 @@
                 <div id="project" class="container space75"></div>
                 <div class="main-bottom mt-5">
                     <div class="project-wrap container">
-                        <div id="projectCarousel" class="carousel-dark slide mb-5" data-bs-ride="carousel" data-bs-pause="hover">
+                        <div id="projectCarousel" class="carousel carousel-dark slide mb-5" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                               <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                               <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -135,18 +139,26 @@
                             </div>
                             <div class="carousel-inner">
                               <div class="carousel-item active" data-bs-interval="2000">
-                                <img src="./images/project1.jpg" class="d-block w-100" alt="...">
+                                <img src="./images/project1.jpg" class="d-block w-100" alt="project_screenshot">
                               </div>
                               <div class="carousel-item" data-bs-interval="2000">
-                                <img src="./images/project2.jpg" class="d-block w-100" alt="...">
+                                <img src="./images/project2.jpg" class="d-block w-100" alt="project_screenshot">
                               </div>
                               <div class="carousel-item" data-bs-interval="2000">
-                                <img src="./images/project3.jpg" class="d-block w-100" alt="...">
+                                <img src="./images/project3.jpg" class="d-block w-100" alt="project_screenshot">
                               </div>
                             </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
                         </div>
                         <div id="link02" class="link02">
-                            <a class="fs-4 font-monospace fw-bolder" href="#">Go&nbsp;to<br><br>Project</a>
+                            <a class="fs-4 font-monospace fw-bolder" href="#">about<br><br>Project</a>
                         </div>
                     </div>
                 </div>

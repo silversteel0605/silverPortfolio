@@ -87,13 +87,6 @@ body.modal-open {
     color: white;
     z-index: 5;
 }
-.main-center .board-wrap .doard1, .board2, .board3 {
-    /* height: 300px; */
-    /* border: 1px solid black; */
-    /* background-color: bisque; */
-}
-
-
 
 .board-fluid > div {
     color: white;
@@ -123,16 +116,6 @@ body.modal-open {
 
 .project-wrap a:hover img {
     filter: brightness(70%);
-}
-
-.main-bottom .project-wrap .slideItems {
-    /* height: 500px; */
-}
-
-.main-bottom .project-wrap .slideItems img {
-    /* display: block;
-    height: 100%;
-    object-fit: contain; */
 }
 
 .main-bottom .progress-wrap {
