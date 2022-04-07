@@ -11,6 +11,7 @@ document.addEventListener('scroll', (e) => {
         gnbFontColorATags.forEach((aTag) => {
             aTag.style.color = 'white';
         });
+        gnbTable.className = 'navbar fixed-top navbar-expand-lg navbar-light';
         
     } else if (window.scrollY > 0) {
         gnbTable.style.backgroundColor = 'white';
@@ -18,6 +19,7 @@ document.addEventListener('scroll', (e) => {
         gnbFontColorATags.forEach((aTag) => {
             aTag.style.color = 'black';
         });
+        gnbTable.className = 'navbar fixed-top navbar-expand-lg navbar-light border-bottom';
     }
 });
 
